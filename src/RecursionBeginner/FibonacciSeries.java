@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionBeginner;
 // print fibonacci series up to n'th term
 public class FibonacciSeries {
     public static void main(String[] args) {

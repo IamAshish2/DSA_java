@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionBeginner;
 
 public class Factorial {
     public static void main(String[] args) {

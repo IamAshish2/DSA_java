@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionBeginner;
 
 public class SumOfFirstNNatural {
     public static void main(String[] args) {

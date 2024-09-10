@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionBeginner;
 
 public class OneToFive {
     public static void main(String[] args) {
