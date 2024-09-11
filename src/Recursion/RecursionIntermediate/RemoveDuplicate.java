@@ -1,4 +1,4 @@
-package RecursionIntermediate;
+package Recursion.RecursionIntermediate;
 
 public class RemoveDuplicate {
     public static boolean [] map = new boolean[26];

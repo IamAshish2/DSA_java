@@ -1,4 +1,4 @@
-package RecursionIntermediate;
+package Recursion.RecursionIntermediate;
 //Q.->  Move all the 'x' chars to the end of the string
 public class MoveXToEnd {
     static String newStr = "";

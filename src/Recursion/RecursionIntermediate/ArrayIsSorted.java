@@ -1,4 +1,4 @@
-package RecursionIntermediate;
+package Recursion.RecursionIntermediate;
 //Check if an array is sorted (strictly increasing)
 public class ArrayIsSorted {
 

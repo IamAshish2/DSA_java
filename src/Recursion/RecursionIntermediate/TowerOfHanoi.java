@@ -1,4 +1,4 @@
-package RecursionIntermediate;
+package Recursion.RecursionIntermediate;
 
 public class TowerOfHanoi    {
     public static void main(String[] args) {

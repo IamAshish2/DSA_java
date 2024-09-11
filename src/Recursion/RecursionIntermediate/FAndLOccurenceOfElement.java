@@ -1,4 +1,4 @@
-package RecursionIntermediate;
+package Recursion.RecursionIntermediate;
 
 public class FAndLOccurenceOfElement {
 
