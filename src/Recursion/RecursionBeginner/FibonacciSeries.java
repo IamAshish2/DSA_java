@@ -1,4 +1,4 @@
-package RecursionBeginner;
+package Recursion.RecursionBeginner;
 // print fibonacci series up to n'th term
 public class FibonacciSeries {
     public static void main(String[] args) {
@@ -37,8 +37,6 @@ public class FibonacciSeries {
         recursiveFibonacci(n-1,first,second);
     }
     */
-
-
     static void recursiveFibonacci(int n, int first, int second) {
         if (n <= 0) {
             return; // Base case: no more numbers to print

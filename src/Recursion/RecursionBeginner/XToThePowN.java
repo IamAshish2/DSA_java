@@ -1,4 +1,4 @@
-package RecursionBeginner;
+package Recursion.RecursionBeginner;
 // calculate stack height = n
 
 public class XToThePowN {
