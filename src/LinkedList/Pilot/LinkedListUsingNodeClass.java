@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.Pilot;
 
 public class LinkedListUsingNodeClass {
     public static Node Head;

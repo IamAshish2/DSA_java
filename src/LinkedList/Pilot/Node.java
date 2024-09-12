@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.Pilot;
 
 public class Node {
     public static Node Next;

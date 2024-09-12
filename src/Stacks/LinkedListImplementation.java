@@ -7,19 +7,19 @@ public class LinkedListImplementation {
 
         Node(int data){
             this.data = data;
-            this.next = next;
+            this.next = null;
         }
     }
 
     static class Stack{
-        public static Node head;
+        public  Node head;
 
-        public static boolean isEmpty(){
+        public  boolean isEmpty(){
             return head == null;
         }
 
         // stack push functionality with linked list
-        public static void push(int data){
+        public  void push(int data){
             Node newNode = new Node(data);
 
             if(isEmpty()){
@@ -31,7 +31,7 @@ public class LinkedListImplementation {
             head = newNode;
         }
 
-        public static int pop(){
+        public  int pop(){
             if(isEmpty()){
                 System.out.println("Nothing to remove. Stack empty");
                 return 0;
@@ -42,7 +42,7 @@ public class LinkedListImplementation {
             return temp.data;
         }
 
-        public static int peek(){
+        public  int peek(){
             if(isEmpty()){
                 return -1;
             }

@@ -1,7 +1,7 @@
 package LinkedList.simpleProblems;
 
 public class RawLL {
-    Node head;
+     Node head;
     RawLL(){
         this.head = null;
     }
@@ -25,6 +25,9 @@ public class RawLL {
         ll.addLast(8);
         ll.addFirst(2);
         System.out.println("index of 7 is " + ll.indexOf(7));
+        ll.iterate();
+//        ll.head = ll.reverseRecursive(ll.head);
+        System.out.println();
         ll.iterate();
     }
 
@@ -114,5 +117,38 @@ public class RawLL {
             currNode = currNode.next;
         }
         System.out.print("NULL");
+    }
+
+    // reverse a linked list iterative method
+    void reverseIterate(){
+        if(head == null || head.next == null){
+            return;
+        }
+
+        Node prevNode = head;
+        Node currNode = head.next;
+
+        while (currNode != null){
+            Node nextNode = currNode.next;
+            currNode.next = prevNode;
+
+            // update
+            prevNode = currNode;
+            currNode = nextNode;
+        }
+
+        head.next = null;
+        head = prevNode;
+    }
+    // reverse a linked list recursive method
+    Node reverseRecursive(Node head){
+        if(head == null || head.next == null){
+            return  head;
+        }
+
+        Node newHead = reverseRecursive(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
     }
 }

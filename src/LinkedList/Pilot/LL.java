@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.Pilot;
 
 public class LL {
     // the head that points to the first element in the linked list
@@ -25,13 +25,14 @@ public class LL {
     public static void main(String[] args) {
         LL list = new LL();
         list.addFirst(1);
-        list.addLast(2);
-        list.addLast(3);
-        list.addFirst(43);
-        System.out.println("Deleted from start " + list.deleteFirst());
-        System.out.println("Delted from last " + list.deleteLast());
+        list.deleteLast();
+//        list.addLast(2);
+//        list.addLast(3);
+//        list.addFirst(43);
+//        System.out.println("Deleted from start " + list.deleteFirst());
+//        System.out.println("Delted from last " + list.deleteLast());
         list.printList();
-        System.out.println(list.getSize());
+//        System.out.println(list.getSize());
     }
 
 //    add first

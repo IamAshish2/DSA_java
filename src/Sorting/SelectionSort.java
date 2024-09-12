@@ -6,15 +6,15 @@ public class SelectionSort {
         int n = arr.length;
 
         for(int i=0;i<n-1;i++){
-            int min = i;
+            int minEle = i;
             for(int j=i+1;j<n;j++){
-                if(arr[j] < arr[min]){// comparing to the value of the min element
-                    min = j;
+                if(arr[j] < arr[minEle]){
+                    minEle = j;
                 }
             }
-            int temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
+            int temp = arr[minEle];
+            arr[minEle] = arr[i];
+            arr[i] = temp;
         }
 
         for(int ele : arr) System.out.println(ele);
