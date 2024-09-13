@@ -28,6 +28,7 @@ public class Leetcode1295 {
             if (isEvenDigits2(ele) % 2 == 0) {
                 evenNumCounter++;
             }
+
         }
         return  evenNumCounter;
         // keeping this code minimal and understandable by creating a new function to check if the digits contains even number
