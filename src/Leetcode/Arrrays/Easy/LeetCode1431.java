@@ -1,7 +1,6 @@
-package Leetcode.Arrrays;
+package Leetcode.Arrrays.Easy;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /* 1431. Kids With the Greatest Number of Candies

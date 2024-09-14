@@ -1,4 +1,4 @@
-package Leetcode.Arrrays;
+package Leetcode.Arrrays.Easy;
 /*
 Given an array of integers nums, return the number of good pairs.
 

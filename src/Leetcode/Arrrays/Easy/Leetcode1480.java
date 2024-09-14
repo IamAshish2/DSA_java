@@ -1,6 +1,4 @@
-package Leetcode.Arrrays;
-
-import java.util.Arrays;
+package Leetcode.Arrrays.Easy;
 
 // Running sum
 public class Leetcode1480 {

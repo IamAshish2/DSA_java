@@ -1,4 +1,4 @@
-package Leetcode.Arrrays;
+package Leetcode.Arrrays.Easy;
 /* 1470. Shuffle the Array
 
 

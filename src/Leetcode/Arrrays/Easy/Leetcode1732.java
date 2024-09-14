@@ -1,6 +1,4 @@
-package Leetcode.Arrrays;
-
-import java.util.Arrays;
+package Leetcode.Arrrays.Easy;
 
 /* 1732. Find the Highest Altitude
 There is a biker going on a road trip.

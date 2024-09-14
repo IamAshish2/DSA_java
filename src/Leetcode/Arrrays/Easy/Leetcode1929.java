@@ -1,4 +1,4 @@
-package Leetcode.Arrrays;
+package Leetcode.Arrrays.Easy;
 //1929. Concatenation of Array
 
 //Given an integer array nums of length n, you want to create an array ans of length 2n where ans[i] == nums[i]

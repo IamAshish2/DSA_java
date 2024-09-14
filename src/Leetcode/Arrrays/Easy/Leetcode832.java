@@ -1,6 +1,4 @@
-package Leetcode.Arrrays;
-
-import java.util.Arrays;
+package Leetcode.Arrrays.Easy;
 
 /* 832. Flipping an Image
 Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.
