@@ -51,8 +51,7 @@ public class RotationCountInSortedArr {
             }else if(mid > start && arr[mid] < arr[mid-1]){
                 end = mid -1 ;
             }
-
-            if(mid < end && arr[mid] < arr[mid+1]){
+            else if (mid < end && arr[mid] < arr[mid+1]){
                 start++;
             }
 
