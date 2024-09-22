@@ -17,15 +17,16 @@ public class CyclicSort {
     }
 
     static void cyclicSort(int [] arr){
-        int i = 0;
-        while(i < arr.length){
-            int correctIndex = arr[i] - 1;
-            if(arr[i]  != arr[correctIndex]){
-                swap(arr,i,correctIndex);
-            }else{
-                i++;
-            }
-        }
+       int i = 0;
+       while(i < arr.length){
+           // the correct index for 1 is at 0. therefore, correctIndex = arr[i] - 1;
+           int correctIndex = arr[i] - 1;
+           if(arr[i] != arr[correctIndex]){
+               swap(arr,i,correctIndex);
+           }else{
+               i++;
+           }
+       }
     }
 
     static void swap(int [] arr,int first,int second){
