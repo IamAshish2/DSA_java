@@ -1,6 +1,6 @@
 package Leetcode.BinarySearching.Easy;
 
-public class Leetcode367 {
+public class PerfectSquare {
     public static void main(String[] args) {
         System.out.println(isPerfectSquare(2147483647));
     }
