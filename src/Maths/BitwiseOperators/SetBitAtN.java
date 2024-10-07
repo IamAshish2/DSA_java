@@ -7,7 +7,7 @@ public class SetBitAtN {
 
     static int setBit(int n, int pos) {
         int bitMask = 1 << (pos); // Shift 1 by pos to get the bitmask
-        System.out.println(bitMask);
+//        System.out.println(bitMask);
         return (bitMask | n); //Or the bitmask to set the bit at pos
     }
 
