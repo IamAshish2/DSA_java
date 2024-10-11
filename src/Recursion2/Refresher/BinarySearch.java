@@ -1,4 +1,4 @@
-package Recursion2;
+package Recursion2.Refresher;
 
 public class BinarySearch {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Recursion2;
+package Recursion2.Refresher;
 
 public class Fibonacci {
     public static void main(String[] args) {
