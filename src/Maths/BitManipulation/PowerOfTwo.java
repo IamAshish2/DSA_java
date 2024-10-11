@@ -1,4 +1,4 @@
-package BitManipulation;
+package Maths.BitManipulation;
 
 //Write a program to find if a number is a power of 2 or not.
 public class PowerOfTwo {

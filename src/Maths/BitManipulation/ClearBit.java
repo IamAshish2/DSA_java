@@ -1,4 +1,4 @@
-package BitManipulation;
+package Maths.BitManipulation;
 
 public class ClearBit {
     public static void main(String[] args) {

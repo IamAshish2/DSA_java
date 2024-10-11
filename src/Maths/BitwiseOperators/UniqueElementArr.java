@@ -1,4 +1,4 @@
-package BitwiseOperators;
+package Maths.BitwiseOperators;
 
 public class UniqueElementArr {
     public static void main(String[] args) {

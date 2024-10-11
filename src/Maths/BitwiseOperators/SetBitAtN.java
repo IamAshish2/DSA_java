@@ -1,4 +1,4 @@
-package BitwiseOperators;
+package Maths.BitwiseOperators;
 // 5=101 bitmask = 010 and after set bit = 111
 public class SetBitAtN {
     public static void main(String[] args) {

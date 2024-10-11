@@ -1,4 +1,4 @@
-package BitwiseOperators;
+package Maths.BitwiseOperators;
 
 public class GetBitAtN {
     public static void main(String[] args) {

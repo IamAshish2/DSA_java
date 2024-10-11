@@ -1,6 +1,4 @@
-package BitManipulation;
-
-import java.util.ArrayList;
+package Maths.BitManipulation;
 
 public class ConvertNToBinary {
     public static void main(String[] args) {
